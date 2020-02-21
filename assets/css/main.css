@@ -4428,4 +4428,11 @@
 				padding: 3em 0 1em 0;
 			}
 
+		}.zoom {
+			font-family: gabriela;
+  transition: transform .2s; 
 		}
+		.zoom:hover {
+  transform: scale(1.2);
+		color:green;}
+	
