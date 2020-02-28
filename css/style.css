@@ -88,29 +88,29 @@ div.table table.address{
 }
 
 div.table  table.address tr td {
-  color: ##FF9000;
+  color:#FFFFFF;
   border: 2px solid white;
   padding: 4%;
   width: auto;
 }
 
 div.table  table.address tr td.ad-cell {
-  color: ##FF9000;
-  font-size: 18px;#FF9000
+  color:#FFFFFF;
+  font-size: 18px;
   width: 75%;
 }
 
 div.table  table.address tr td.disp-cell {
-  color: ##FF9000;
+  color:#FFFFFF;
   font-size: x-large;
 }
 
 div.table table.about-html tr.child-even {
-  background-color: ##FF9000
+  background-color:#FFFFFF
 }
 
 div.table table.about-html tr.child-odd {
-  color: ##FF9000;
+  color:#FFFFFF;
   background-color: #010101
 }
 
@@ -148,16 +148,16 @@ div.table table.courses{
 
 div.table table.courses tr.first-row th {
   /* width: 15%; */
-  color: ##FF9000;
+  color:black;
   font-size: 22px;
 }
 
 div.table table.courses tr.child-even {
-  background-color: ##FF9000
+  background-color:#FFFFFF
 }
 
 div.table table.courses tr.child-odd {
-  color: ##FF9000;
+  color:#FFFFFF;
   background-color: #010101
 }
 
@@ -624,7 +624,7 @@ h1, h2, h3, h4, h5, h6, figure {
 .info li .first-block {
   width: 40%;
   display: inline-block;
-  float: left;
+  /* float: left; */
   color: #000;
   font-weight: bold;
 }
