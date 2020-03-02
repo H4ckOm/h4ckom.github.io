@@ -1,5 +1,6 @@
 <!DOCTYPE HTML>
 <html>
+
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,47 +13,54 @@
 	<link rel="stylesheet" href="css/icomoon.css">
 	<link rel="stylesheet" href="css/bootstrap.css">
 	<link rel="stylesheet" href="css/style.css">
-	<style>
-		a:any-link {
-			color: white;
-		}
-
-		table {
-			table-layout: fixed !important;
-			text-align: center;
-			width: 100vmax;
-			background-color: #FF9000;
-			border: 0;
-		}
-
-		td,
-		iframe {
-			overflow: hidden;
-		}
-	</style>
-<link rel = "icon" href =  
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery.waypoints.min.js"></script>
+	<script src="js/main.js"></script>
+	<link rel = "icon" href =  
 "./images/icon2.png" 
         type = "image/x-icon"> 
 </head>
 
 <body>
 
-	<table style="width: 100%;">
-		<td><a href="home.html" target="iframe_a">Home</a></td>
-		<td><a href="about_me.html#pic" target="iframe_a">About Me</a></td>
-		<td><a href="location.html#add" target="iframe_a">Location</a></td>
-		<td><a href="projects_qualifications.html#qual" target="iframe_a">Projects & Qualifications</a></td>
-		<td><a href="sem_subjects.html#sem" target="iframe_a">Semester Subjects</a></td>
-		<td><a href="about_html_css.html#htm" target="iframe_a">HTML & CSS Tags</a></td>
-	</table>
-	<iframe id="frame" height="732px" width="100%" name="iframe_a" frameborder="0" allowtransparency="true"
-		src="home.html"></iframe>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/jquery.easing.1.3.js"></script>
-	<script src="js/bootstrap.min.js"></script>
-	<script src="js/jquery.waypoints.min.js"></script>
-	<script src="js/jquery.stellar.min.js"></script>
-	<script src="js/main.js"></script>
+	<div class="topnav">
+		<a class="active" href="index.html">Home</a>
+		<a href="about_me.html">About Me</a>
+		<a href="location.html">Location</a>
+		<a href="projects_qualifications.html">Projects & Qualifications</a>
+		<a href="sem_subjects.html">Semester Subjects</a>
+		<a href="about_html_css.html">HTML & CSS Tags</a>
+	  </div>
+	<div id="page">
+		<header id="-header" class="-cover js-fullheight" role="banner" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2 text-center">
+						<div class="display-t js-fullheight">
+							<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+								<div class="profile-thumb" style="background: url(images/user-3.jpg);"></div>
+								<h1><span>Omkar Deshmukh</span></h1>
+								<h3><span>Student / Programmer</span></h3>
+								<p>
+									<ul class="-social-icons">
+										<li><a href="https://twitter.com/H4ckOm" target="_blank"><i
+													class="icon-twitter2"></i></a></li>
+										<li><a href="https://www.facebook.com/omkar.deshmukh.123829" target="_blank"><i
+													class="icon-facebook2"></i></a></li>
+										<li><a href="https://www.linkedin.com/in/omkardeshmukh1234/" target="_blank"><i
+													class="icon-linkedin2"></i></a></li>
+										<li><a href="https://www.instagram.com/its_omkar_d/" target="_blank"><i
+													class="icon-instagram2"></i></a></li>
+									</ul>
+								</p>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
 </body>
 
 </html>

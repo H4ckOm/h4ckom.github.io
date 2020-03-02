@@ -509,7 +509,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #-features {
-  background: #FF9000;
+  background: #8a8a8a;
 }
 #-features h2 {
   color: #fff;
@@ -632,6 +632,34 @@ h1, h2, h3, h4, h5, h6, figure {
   width: 60%;
   display: inline-block;
   color: rgba(0, 0, 0, 0.5);
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: rgba(255, 144, 0, 0.9);
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: ;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color:#FF9000;
+  color: white;
 }
 
 .-social-icons {
