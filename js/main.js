@@ -2,7 +2,7 @@
 	
 	'use strict';
 
-	var isMobile = {
+	const isMobile = {
 		Android: function() {
 			return navigator.userAgent.match(/Android/i);
 		},
@@ -24,7 +24,7 @@
 	};
 
 	
-	var fullHeight = function() {
+	const fullHeight = function() {
 
 		if ( !isMobile.any() ) {
 			$('.js-fullheight').css('height', $(window).height());
@@ -35,11 +35,11 @@
 	};
 
 	// Parallax
-	var parallax = function() {
+	const parallax = function() {
 		$(window).stellar();
 	};
 
-	var contentWayPoint = function() {
+	const contentWayPoint = function() {
 		var i = 0;
 		$('.animate-box').waypoint( function( direction ) {
 
@@ -77,7 +77,7 @@
 
 
 
-	var goToTop = function() {
+	const goToTop = function() {
 
 		$('.js-gotop').on('click', function(event){
 			
@@ -103,7 +103,7 @@
 	
 	};
 
-	var pieChart = function() {
+	const pieChart = function() {
 		$('.chart').easyPieChart({
 			scaleColor: false,
 			lineWidth: 4,
@@ -115,7 +115,7 @@
 		});
 	};
 
-	var skillsWayPoint = function() {
+	const skillsWayPoint = function() {
 		if ($('#fh5co-skills').length > 0 ) {
 			$('#fh5co-skills').waypoint( function( direction ) {
 										
